@@ -3,8 +3,6 @@
 $('.github').click(function (e) {
 	const target1 = e.target.classList[0];
 	const target2 = e.target.classList[2];
-	console.log(target1);
-	console.log(target2);
 
 	if (target1 === 'fa-github' || 'github') {
 		window.location = 'https://github.com/sinhaniik';
@@ -17,8 +15,6 @@ $('.github').click(function (e) {
 $('.twitter').click(function (e) {
 	const target1 = e.target.classList[0];
 	const target2 = e.target.classList[2];
-	console.log(target1);
-	console.log(target2);
 
 	if (target1 === 'fa-twitter' || 'twitter') {
 		window.location = 'https://twitter.com/sinhaniik';
@@ -31,8 +27,6 @@ $('.twitter').click(function (e) {
 $('.linkedin').click(function (e) {
 	const target1 = e.target.classList[0];
 	const target2 = e.target.classList[2];
-	console.log(target1);
-	console.log(target2);
 
 	if (target1 === 'fa-linkedin' || 'linkedin') {
 		window.location = 'https://www.linkedin.com/in/sinhaniik/';
@@ -45,8 +39,6 @@ $('.linkedin').click(function (e) {
 $('.hashnode').click(function (e) {
 	const target1 = e.target.classList[0];
 	const target2 = e.target.classList[2];
-	console.log(target1);
-	console.log(target2);
 
 	if (target1 === 'fa-hashnode' || 'hashnode') {
 		window.location = 'https://sinhaniik.hashnode.dev/';
