@@ -46,3 +46,8 @@ $('.hashnode').click(function (e) {
 		window.location = 'https://sinhaniik.hashnode.dev/';
 	}
 });
+
+// NAVBAR BUTTON RESUME ADDED
+$('.nav_btn').click(function (e) {
+	window.location = '/files/nikhil sinha RESUME.pdf';
+});
