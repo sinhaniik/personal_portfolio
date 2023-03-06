@@ -83,6 +83,23 @@ img {
 	font-weight: 800;
 	color: #fff;
 }
+.carousel-caption {
+	position: absolute;
+	right: 15%;
+	bottom: 0.25rem;
+	left: 15%;
+	padding-top: 1.25rem;
+	padding-bottom: 1.25rem;
+	color: #fff;
+	text-align: left;
+}
+
+.project_h5 {
+}
+.project_p {
+	padding: 1rem 0 0 0 ;
+	color: #fff;
+}
 
 /* BLOGS */
 .container {

@@ -1,5 +1,4 @@
 // THE GITHUB
-
 $('.github').click(function (e) {
 	const target1 = e.target.classList[0];
 	const target2 = e.target.classList[2];
