@@ -129,3 +129,22 @@ img {
 .blog_clo2 {
 	background-color: #212125;
 }
+
+.blogs_icons {
+	cursor: pointer;
+}
+
+.blogs_caption {
+	text-align: center;
+}
+
+.carousel-indicators [data-bs-target] {
+	margin: 10px 6px 0 0;
+	height: 1rem;
+	width: 1rem;
+	border-radius: 100%;
+}
+
+.blogs_p {
+	margin-bottom: 2rem;
+}
