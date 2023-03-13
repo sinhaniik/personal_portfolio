@@ -148,3 +148,9 @@ img {
 .blogs_p {
 	margin-bottom: 2rem;
 }
+
+.blog_img2 {
+	padding: 20%;
+	margin-left: 0.9rem;
+	border-radius: 10.5rem;
+}
