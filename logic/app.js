@@ -50,3 +50,30 @@ $('.hashnode').click(function (e) {
 $('.nav_btn').click(function (e) {
 	window.location = '/files/nikhil sinha RESUME.pdf';
 });
+
+$('.crown_clothing').click(function (e) {
+	const className = e.target.className;
+	const myArray = className.split(' ');
+
+	if (myArray[0] == 'crown_clothing') {
+		window.location = 'https://github.com/sinhaniik/Crown-Clothing';
+	}
+});
+
+$('.portfolio').click(function (e) {
+	const className = e.target.className;
+	const myArray = className.split(' ');
+
+	if (myArray[0] == 'portfolio') {
+		window.location = 'https://github.com/sinhaniik/personal_portfolio';
+	}
+});
+
+$('.music_band').click(function (e) {
+	const className = e.target.className;
+	const myArray = className.split(' ');
+
+	if (myArray[0] == 'music_band') {
+		window.location = 'https://github.com/sinhaniik/music_band';
+	}
+});
