@@ -7,7 +7,7 @@
 }
 
 .links {
-	margin: 0rem 1rem 0rem 1rem;
+	margin: 0 1rem 0 1rem;
 	letter-spacing: 0.3rem;
 }
 
@@ -18,13 +18,10 @@
 
 /* HOME  */
 #home {
-	padding-left: 0px;
 	color: #fff;
-	align-items: center;
 }
 
 .col1 {
-	padding-right: 0px;
 	background-color: #111117;
 }
 .home_h1 {
@@ -47,8 +44,8 @@
 	text-align: left;
 }
 img {
-	height: 600px;
-	width: 600px;
+	height: 550px;
+	width: 550px;
 }
 
 .home-btn {
@@ -94,8 +91,6 @@ img {
 	text-align: left;
 }
 
-.project_h5 {
-}
 .project_p {
 	padding: 1rem 0 0 0 ;
 	color: #fff;
@@ -153,4 +148,11 @@ img {
 	padding: 20%;
 	margin-left: 0.9rem;
 	border-radius: 10.5rem;
+}
+
+#footer {
+	color: #fff;
+	background-color:#212125;
+	text-align: center;
+	padding: 3% 10%;
 }
