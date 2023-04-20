@@ -51,6 +51,7 @@ $('.nav_btn').click(function (e) {
 	window.location = '/files/nikhil sinha RESUME.pdf';
 });
 
+// Project crown_clothing link added
 $('.crown_clothing').click(function (e) {
 	const className = e.target.className;
 	const myArray = className.split(' ');
@@ -59,7 +60,7 @@ $('.crown_clothing').click(function (e) {
 		window.location = 'https://github.com/sinhaniik/Crown-Clothing';
 	}
 });
-
+// Project portfolio link added
 $('.portfolio').click(function (e) {
 	const className = e.target.className;
 	const myArray = className.split(' ');
@@ -68,7 +69,7 @@ $('.portfolio').click(function (e) {
 		window.location = 'https://github.com/sinhaniik/personal_portfolio';
 	}
 });
-
+// Project music_band link added
 $('.music_band').click(function (e) {
 	const className = e.target.className;
 	const myArray = className.split(' ');
