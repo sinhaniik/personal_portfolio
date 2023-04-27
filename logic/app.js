@@ -48,7 +48,8 @@ $('.hashnode').click(function (e) {
 
 // NAVBAR BUTTON RESUME ADDED
 $('.nav_btn').click(function (e) {
-	window.location = '/files/Rezume.pdf';
+	window.location =
+		'https://drive.google.com/file/d/1NaLkP2KA7vM_issTMQgwJsxKm1ZAaV6R/view';
 });
 
 // Project crown_clothing link added
