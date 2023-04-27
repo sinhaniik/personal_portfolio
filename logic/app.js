@@ -48,7 +48,7 @@ $('.hashnode').click(function (e) {
 
 // NAVBAR BUTTON RESUME ADDED
 $('.nav_btn').click(function (e) {
-	window.location = '/files/nikhil sinha RESUME.pdf';
+	window.location = '/files/Rezume.pdf';
 });
 
 // Project crown_clothing link added
