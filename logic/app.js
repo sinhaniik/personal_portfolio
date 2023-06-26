@@ -79,3 +79,11 @@ $('.music_band').click(function (e) {
 		window.location = 'https://github.com/sinhaniik/music_band';
 	}
 });
+
+$(".blog_h1").click(function(e) {
+	const className = e.target.className
+	
+	if(className === "blog_h1") {
+		window.location = 'https://sinhaniik.hashnode.dev/';
+	}
+})
